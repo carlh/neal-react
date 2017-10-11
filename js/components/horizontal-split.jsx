@@ -1,4 +1,5 @@
 import { Row, Col, Container } from "../helpers/bootstrap";
+import PropTypes from "prop-types";
 import React from "react";
 
 export class HorizontalSplit extends React.Component {
@@ -13,7 +14,7 @@ export class HorizontalSplit extends React.Component {
   };
 
   static propTypes = {
-    padding: React.PropTypes.oneOf(["sm", "md", "lg"]),
+    padding: PropTypes.oneOf(["sm", "md", "lg"]),
   };
 
   static defaultProps = {

@@ -9,6 +9,10 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _bootstrap = require("../helpers/bootstrap");
 
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
@@ -64,7 +68,7 @@ HorizontalSplit.COLUMN_CLASSES = {
   12: ["xs-12", "sm-6", "lg-3"]
 };
 HorizontalSplit.propTypes = {
-  padding: _react2.default.PropTypes.oneOf(["sm", "md", "lg"])
+  padding: _propTypes2.default.oneOf(["sm", "md", "lg"])
 };
 HorizontalSplit.defaultProps = {
   padding: "sm"

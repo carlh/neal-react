@@ -61,6 +61,6 @@ var GoogleAnalytics = exports.GoogleAnalytics = function (_React$Component) {
 }(_react2.default.Component);
 
 GoogleAnalytics.propTypes = {
-  account: _react2.default.PropTypes.string.isRequired,
-  history: _react2.default.PropTypes.object
+  account: PropTypes.string.isRequired,
+  history: PropTypes.object
 };

@@ -56,6 +56,6 @@ var Segment = exports.Segment = function (_React$Component) {
 }(_react2.default.Component);
 
 Segment.propTypes = {
-  writeKey: _react2.default.PropTypes.string.isRequired,
-  history: _react2.default.PropTypes.object
+  writeKey: PropTypes.string.isRequired,
+  history: PropTypes.object
 };

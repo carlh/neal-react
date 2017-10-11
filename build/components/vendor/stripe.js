@@ -48,7 +48,7 @@ var Stripe = exports.Stripe = function (_React$Component) {
 }(_react2.default.Component);
 
 Stripe.propTypes = {
-  stripeKey: _react2.default.PropTypes.string.isRequired,
+  stripeKey: PropTypes.string.isRequired,
   // Optional options we pass to Stripe Checkout configuration
-  stripeOptions: _react2.default.PropTypes.object
+  stripeOptions: PropTypes.object
 };

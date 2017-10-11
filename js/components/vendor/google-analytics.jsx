@@ -3,8 +3,8 @@ import React from "react";
 export class GoogleAnalytics extends React.Component {
 
   static propTypes = {
-    account: React.PropTypes.string.isRequired,
-    history: React.PropTypes.object,
+    account: PropTypes.string.isRequired,
+    history: PropTypes.object,
   };
 
   componentDidMount() {

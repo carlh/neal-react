@@ -3,8 +3,8 @@ import React from "react";
 export class Segment extends React.Component {
 
   static propTypes ={
-    writeKey: React.PropTypes.string.isRequired,
-    history: React.PropTypes.object,
+    writeKey: PropTypes.string.isRequired,
+    history: PropTypes.object,
   };
 
   componentDidMount() {
